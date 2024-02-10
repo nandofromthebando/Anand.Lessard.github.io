@@ -73,6 +73,7 @@ nav ul li {
   }
 
 .bio {
+    text-align: center;
     width: 35rem;
     height: 27rem;
     padding: 1rem;
