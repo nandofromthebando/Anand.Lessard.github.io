@@ -62,6 +62,7 @@ nav ul li {
     cursor: pointer;
     display: none;
   }
+  
 .hero {
     display: flex;
     align-items: center;
@@ -79,20 +80,21 @@ nav ul li {
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
+.bio p {
+    margin: 0; /* Remove default margin */
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
+
 .hero img {
     max-height: 27rem; 
     width: 35rem;
 }
-  
 
-.bio h1 {
+.bio h2 {
     margin-bottom: var(--bottom-margin);
 }
 
-.bio p {
-    line-height: var(--line-height);
-    padding: 0.3rem 0;
-}
 
 .more-about {
     background-color: var(--bg-color);
