@@ -71,24 +71,19 @@ nav ul li {
     text-align: center;
 }
 
-.bio {
-    text-align: center;
-    width: 35rem;
-    max-height: 27rem;
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+.bio, .hero img {
+  width: 45rem; /* Increase the width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 35rem; /* Increase the maximum height */
+  padding: 1.5rem; /* Adjust padding for better spacing */
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
 .bio p {
-    margin: 0; /* Remove default margin */
+    margin: 1; /* Remove default margin */
     line-height: var(--line-height);
     padding: 0.3rem 0;
-}
-
-.hero img {
-    max-height: 27rem; 
-    width: 35rem;
 }
 
 .bio h2 {
